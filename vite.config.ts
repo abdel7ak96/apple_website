@@ -4,7 +4,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/apple-web/',
+  base: '/apple_website/',
   plugins: [react()],
   resolve: {
     alias: {

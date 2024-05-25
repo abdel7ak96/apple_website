@@ -158,7 +158,7 @@ const VideoCarousel = () => {
   };
 
   const handleLoadedMetaData = (e: SyntheticEvent<HTMLVideoElement, Event>) =>
-    setLoadedData((pre) => [...pre, e]);
+    setLoadedData((pre: any) => [...pre, e]);
 
   return (
     <>
